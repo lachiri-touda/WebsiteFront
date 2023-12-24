@@ -44,7 +44,7 @@
     background-color: #efefef;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top:100px;
 }
 
 .sidenav a {
@@ -57,7 +57,7 @@
 }
 
 .sidenav a:hover {
-    color: #007bff;
+    color: #333;
 }
 
 .sidenav.open {
@@ -121,7 +121,7 @@
     }
 
     .sidenav {
-        padding-top: 0;
+        padding-top: 80px;
 
         h4 {
             font-weight: bold;

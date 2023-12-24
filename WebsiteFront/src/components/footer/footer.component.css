@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-widgets {
+    margin-bottom: 20px;
+}
+
+.foo-block {
+    text-align: left;
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-year {
+    font-weight: bold;
+}
+
+.foot-link {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.foo-block h5 {
+    margin: 15px 0px;
+}
+
+.header-icon {
+    margin-left: 15px;
+    color: white;
+}
+
+.icons {
+    padding-right: 20px;
+    padding-top: 5px;
+}

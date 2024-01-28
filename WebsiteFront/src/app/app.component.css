@@ -1,3 +1,17 @@
-body{
-    margin: 0px;
-}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+    font-family: Raleway, sans-serif;
+  }
+  
+  router-outlet {
+    flex: 1; /* Allow the router-outlet to take up the remaining space */
+  }
+  
+  app-footer {
+    margin-top: auto; /* Push the app-footer to the bottom by taking up the remaining space */
+    position: relative;
+    bottom: 0;
+  }

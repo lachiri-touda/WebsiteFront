@@ -1,10 +1,11 @@
 .products-section{
     margin-top: 90px;
+    font-family: Nunito, sans-serif;
+    color: #252525;
 }
 
 .container h4 {
-    margin-bottom: 20px;
-    color: #5f5f5f;
+    margin-bottom: 25px;
 }
 
 .product-item {

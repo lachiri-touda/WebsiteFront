@@ -13,8 +13,8 @@ body {
 .footer-section {
     text-align: center;
     margin-top: auto;
-    background-color: #f2f2f2;
-    color: #252525;
+    background: linear-gradient(to right, #002532, #00384a);
+    color: #e8bb78;
     font-family: Nunito, sans-serif;
     padding: 40px;
     margin-top: 40px;
@@ -64,7 +64,7 @@ body {
 
 .header-icon {
     margin-left: 15px;
-    color: #252525;
+    color: #e8bb78;;
 }
 
 .icons {

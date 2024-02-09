@@ -56,7 +56,7 @@
 }
 
 .sidenav a:hover {
-    color: #333;
+    color: #f0C27D;
 }
 
 .sidenav.open {
@@ -78,7 +78,7 @@
 
 .header-icon {
     margin-left: 15px;
-    color: #181818;
+    color: #00384a;
 }
 
 .icons {
@@ -87,7 +87,7 @@
 }
 
 .navbar-nav .nav-item.active a {
-    color: #252525;
+    color: #00384a;
     font-weight: 550;
 }
 
@@ -101,6 +101,7 @@
         background-color: #fff;
         padding: 2px 8px;
         margin: 0px;
+        color: #00384a;
     }
 
     .navbar-nav {
@@ -140,7 +141,7 @@
     .header-icon {
         margin-left: 2px;
         margin-right: 13px;
-        color: #181818;
+        color: #00384a;
     }
 
     .navbar-nav .nav-item.active a {

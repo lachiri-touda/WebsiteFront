@@ -7,6 +7,7 @@
 .location-title {
     text-align: left;
     margin-bottom: 30px;
+    color: #00384a;
 }
 
 @media screen and (max-width: 767px) {}

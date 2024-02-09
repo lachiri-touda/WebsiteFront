@@ -7,9 +7,10 @@
     color: #252525;
 }
 
-.about-us-container h3 {
+.about-us-container h2 {
     padding-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    color: #00384a
 }
 
 .about-us-container p {

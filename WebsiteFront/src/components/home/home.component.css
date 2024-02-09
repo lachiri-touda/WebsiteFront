@@ -27,14 +27,15 @@ body {
   position: relative;
   text-align: left;
   color: #ffffff;
-  margin-top: 30px;
+  padding-top: 60px;
 }
 
 .hero-container img {
   width: 100%;
   height: 400px;
   object-fit: cover;
-  opacity: 0.8;
+
+  
 }
 
 .title {
@@ -54,14 +55,15 @@ body {
 }
 
 .about-us-container h2 {
-  margin: 8px;
+  margin: 6px;
+  color: #00384a;
 }
 
 .btn-about {
   outline: none;
   background: none;
-  border: 2px solid #252525;
-  color: #252525;
+  border: 2px solid #ac8053;
+  color: #ac8053;
   padding: 10px 20px;
   margin-top: 15px;
   cursor: pointer;
@@ -69,9 +71,9 @@ body {
 }
 
 .btn-about:hover {
-  background-color: #0a456b;
+  background-color: #00384a;
   color: white;
-  border-color: #0a456b;
+  border-color: #00384a;
 }
 
 /* app-products.component.css */
@@ -85,40 +87,33 @@ body {
 .products-section h2 {
   text-align: center;
   margin-bottom: 30px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-
-.col-md-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-  padding: 15px;
+  color: #00384a;
 }
 
 .product-item {
   text-align: center;
-  padding: 5px 35px;
   font-weight: 600;
+  color: #00384a;
+  p {
+    margin-top: 10px;
+  }
 }
 
 .product-item img {
   max-width: 100%;
   height: auto;
   border: 1px solid #ddd;
-  border-radius: 2px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-products {
   outline: none;
   background: none;
-  border: 2px solid #0a456b;
-  background-color: #0a456b;
+  border: 2px solid #00384a;
+  background-color: #00384a;
   color: white;
-  margin: 20px;
+  margin: 40px;
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -126,12 +121,16 @@ body {
 
 .btn-products:hover {
   background-color: white;
-  color: #333 ;
-  border-color: #333;
+  color: #ac8053 ;
+  border-color: #ac8053;
 }
 
 .import-section{
   margin-top: 30px;
+}
+
+.import-section h3 {
+  color: #00384a ;
 }
 
 .import-section img{
@@ -147,6 +146,7 @@ body {
 .location-title {
   text-align: center;
   margin-bottom: 30px;
+  color: #00384a;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -162,10 +162,7 @@ body {
   .hero-container img {
     width: 100%;
     height: 300px;
-    /* Set the height to 400px */
     object-fit: cover;
-    /* Maintain aspect ratio while covering the entire container */
-    opacity: 0.9;
   }
 
   .title {
@@ -182,6 +179,34 @@ body {
     left: 35%;
     font-size: 1rem;
     transform: translate(-50%, -50%);
+  }
+
+  .product-item {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    color: #00384a;
+    p {
+      margin-top: 10px;
+    }
+  }
+
+  .products-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00384a;
+  }
+
+  .btn-products {
+    outline: none;
+    background: none;
+    border: 2px solid #00384a;
+    background-color: #00384a;
+    color: white;
+    margin: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  mobileMode: boolean =false;
+
+  constructor(
+  ) {
+    this.onResize();
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    if (window.innerWidth < 900) {
+      this.mobileMode = true;
+    } else {
+      this.mobileMode = false;
+    }
+  }
+  
 }

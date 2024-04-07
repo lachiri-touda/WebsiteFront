@@ -1,24 +1,13 @@
-.about-us-container {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 40px;
-    text-align: justify;
+.location-contact-section {
+    margin-top: 90px;
     font-family: Nunito, sans-serif;
     color: #252525;
 }
 
-.about-us-container h2 {
-    padding-top: 10px;
-    margin-bottom: 40px;
-    color: #00384a
+.location-title {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #00384a;
 }
 
-.about-us-container p {
-    margin-bottom: 15px;
-}
-
-@media screen and (max-width: 991px) {
-    .about-us-container {
-        padding: 20px;
-    }
-}
+@media screen and (max-width: 767px) {}

@@ -1,27 +1,31 @@
 <div class="home">
-  <div class="hero-container">
+  <div class="hero-container" *ngIf="mobileMode">
+    <img src="./../../assets/toudacouv.png" alt="Hero Image" />
+  </div>
+  <div class="hero-container" *ngIf="!mobileMode">
     <img src="./../../assets/new_couv.jpeg" alt="Hero Image" />
   </div>
 
   <div class="about-us-container">
     <div class="about-us-content">
-      <h2>À propos</h2>
+      <h2 style="text-align: center">À propos</h2>
       <div class="row">
         <div class="col-md-6 text-left">
           <p>
-            Depuis 2005, Touda Fournitures s'est spécialisé dans la fourniture
+            Depuis 2005, l'entreprise Touda Fournitures s'est spécialisé dans la fourniture
             de produits de confection et textiles. Basés à Tanger, nous sommes
             fiers de notre expertise et de notre engagement envers la qualité.
           </p>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-6 text-right" style="text-align: right;">
           <p>
-            منذ عام 2005، اختصت تودا فورنيتشرز في توفير منتجات الخياطة والنسيج.
-            مقرنا في طنجة، ونحن فخورون بخبرتنا والتزامنا بالجودة.
+             منذ عام 2005، اختصت شركة تودى للمستلزمات في توريد منتجات الخياطة والمنسوجات. مقرنا في طنجة، ونحن فخورون بخبرتنا والتزامنا بالجودة
           </p>
         </div>
       </div>
-      <button class="btn-about" routerLink="/about">En savoir plus</button>
+      <div style="text-align: center">
+        <button class="btn-about" routerLink="/about">En savoir plus</button>
+      </div>
     </div>
   </div>
 
@@ -31,17 +35,20 @@
       <div class="row">
         <div class="col-md-3 col-sm-12">
           <div class="product-item">
-            <img src="./../../assets/dentelles.png" alt="Sachets" />
+            <img src="./../../assets/fil_coudre.png" alt="Sachets" />
           </div>
         </div>
         <div class="col-md-3 col-sm-12">
           <div class="product-item">
-            <img src="./../../assets/fils_coudre.png" alt="Sachets en polypropylène" />
+            <img
+              src="./../../assets/rubans.png"
+              alt="Sachets en polypropylène"
+            />
           </div>
         </div>
         <div class="col-md-3 col-sm-12">
           <div class="product-item">
-            <img src="./../../assets/rubans.png" alt="Dentelles" />
+            <img src="./../../assets/buttons.png" alt="Dentelles" />
           </div>
         </div>
         <div class="col-md-3 col-sm-12">
@@ -60,19 +67,17 @@
         <div class="col-md-6">
           <h3>
             Importation Internationale
-            <span style="color: #e8bb78">- استيراد دولي</span>
+            <span style="color: #d5a371">- استيراد دولي</span>
           </h3>
+          <p style="text-align: right;margin-top: 30px;">
+             منذ عام 2005، التزمت تودا للمستلزمات بالاستيراد الدولي لمنتجات الخياطة والمنسوجات. نقوم بتأسيس شراكات قوية مع موردين موثوقين في الصين وتركيا لتقديم منتجات عالية الجودة 
+          </p>
           <p>
             Depuis 2005, Touda Fournitures s'est engagé dans l'importation
             internationale de produits de confection et textiles. Nous
             établissons des partenariats solides avec des fournisseurs de
             confiance en Chine et en Turquie pour vous offrir des produits de
             haute qualité.
-          </p>
-          <p style="text-align: right">
-            منخرطة في الاستيراد الدولي Touda Fournitures منذ عام 2005، أصبحت من
-            منتجات المنسوجات. لقد قمنا بتكوين شراكات صلبة مع موردي الثقة في
-            الصين و تركيا من أجل تقديم خدماتك و منتجات ذات جودة
           </p>
         </div>
         <div class="col-md-6">
@@ -89,31 +94,30 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 order-md-1 order-2">
-          <img src="./../../assets/client.jpg" alt="Expérience Client" />
+          <img src="./../../assets/client.jpg" alt="Expérience Client" style="border-radius: 20px;" />
         </div>
         <div class="col-md-6 order-md-2 order-1">
           <h3>
-            Expérience Client <span style="color: #e8bb78">- تجربة العميل</span>
+            Expérience Client <span style="color: #d5a371">- تجربة الزبون</span>
           </h3>
+          <p style="text-align: right;margin-top: 30px;">
+            نضع تجربة الزبناء في قلب مهمتنا. نحن نسعى جاهدين لتقديم خدمة
+            استثنائية ومنتجات متميزة وتعاون سلس. رضاكم هو أولويتنا
+          </p>
           <p>
             Chez Touda Fournitures, nous mettons l'expérience client au cœur de
             notre mission. Nous nous efforçons de fournir un service
             exceptionnel, des produits de qualité supérieure et une
             collaboration transparente. Votre satisfaction est notre priorité.
           </p>
-          <p style="text-align: right">
-            نضع تجربة العملاء في قلب مهمتنا. نحن نسعى جاهدين لتقديم خدمة
-            استثنائية ومنتجات متميزة وتعاون سلس. رضاكم هو أولويتنا
-          </p>
         </div>
       </div>
     </div>
   </div>
-
   <div class="location-contact-section">
     <div class="container">
       <h2 class="location-title">
-        Localisation <span style="color: #e8bb78">- موقعنا</span>
+        Localisation <span style="color: #d5a371">- موقعنا</span>
       </h2>
       <div class="row">
         <div class="col-md-6">
@@ -137,8 +141,7 @@
           </p>
           <p style="font-weight: bold">اتصل بنا</p>
           <p>
-            ساعات العمل: من الاثنين إلى السبت، من الساعة 10:00 صباحًا حتى الساعة
-            2:00 ظهرًا ومن الساعة 4:00 عصرًا حتى الساعة 7:00 مساءً
+            ساعات العمل: من الاثنين إلى السبت، من الساعة 9:00 صباحًا حتى الساعة 13:00 ظهرًا، ومن الساعة 14:00 بعد الظهر حتى الساعة 18:00 مساءً
           </p>
 
           <p>+212 6 60 72 43 14</p>
